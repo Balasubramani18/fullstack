@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ysabeau+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Libre+Franklin:wght@300&family=Open+Sans:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:ital@1&family=Libre+Franklin:wght@300&family=Open+Sans:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+.section1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #section1 {
+    background-color:azure;
+    height: 50vh;
+    width: 100%;
+  }
+  
+  #section2 {
+    background-color: #ffffff;
+    height: 100vh;
+  }
+  
+  #section3 {
+    background-color: #ffffff;
+    height: 100vh;
+  }
+  
+
+
+ 
+  
+
+
+
+body{
+    background-color:azure;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 150vh; /* Adjust the height as needed */
+  }
+  
+  .section {
+    flex: 1;
+    
+    /* Add any desired styles for each section */
+  }
+.pah{
+  font-size: 1.2rem;
+  font-family: 'Roboto Mono', monospace;
+  padding: 20px;
+  color: #ff0000;
+}
+
+  /* .txt{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    font-size: 6rem;
+    text-align: center;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Russo One', sans-serif;
+    background: -webkit-linear-gradient(rgb(52, 6, 255), rgb(96, 98, 215));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.wel{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(49, 49, 154);
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+/* card */
+.notifications-container {
+  width: 360px;
+  height: auto;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.error-alert {
+  border-radius: 0.375rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.error-svg {
+  color: #ffffff;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.error-prompt-heading {
+  color: #575fc6;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.error-prompt-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+}
+
+.error-prompt-wrap {
+  margin-top: 0.5rem;
+  color: #1c85b9;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  list-style: none;
+}
+
+.error-prompt-list {
+  padding-left: 1.25rem;
+  margin-top: 0.25rem;
+  list-style: none;
+}
+@media only screen and (max-width: 600px) {
+  .section1{
+    
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .notifications-container {
+    width: 300px;
+    height: auto;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+  .pah{
+    padding: 20px;
+    
+  }
+}
+.er{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
